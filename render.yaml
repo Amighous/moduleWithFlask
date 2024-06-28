@@ -9,4 +9,4 @@ services:
       pip install --upgrade pip
       pip install -r requirements.txt
     startCommand: gunicorn app:app
-    pythonVersion: 3.11
+    pythonVersion:  3.12.3
