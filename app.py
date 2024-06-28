@@ -101,4 +101,4 @@ def free_spaces():
     return jsonify({'free_spaces': free_spaces_ids})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run( debug=True)
